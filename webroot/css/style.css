@@ -35,6 +35,7 @@
                 margin: 0 10px 0 0;
                 z-index: 1;
                 border: 1px solid #000;
+                -webkit-box-shadow: 4px 4px 4px rgba(0,0,0,0.5);
             }
             
             .item.left, .item.right {
