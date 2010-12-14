@@ -29,7 +29,7 @@ use lithium\action\Dispatcher;
  */
 Environment::is(function($request) {
     $host = $request->env('HTTP_HOST');
-    if (strpos($host, "dev.") !== false)
+    if (strpos($host, "raymondjulin") !== false)
         return 'development';
     if (strpos($host, "stage.") !== false)
         return 'staging';
