@@ -1,0 +1,221 @@
+"01A - Barnehage",20120," Barnehage",86452804,49022801,119050627
+,21110," PPT førskole",11133600,10615200,15190248
+,21120," Spesialtiltak for førskolebarn",60517199,59017500,55349922
+,21130," To-språklig assistanse",4375100,3375000,266919
+,21140," Syns- og audioped tj. førskole",1249200,1195600,1273621
+,22110," Førskolelokaler og uteareal",147565902,129250121,126848631
+,23140," Barnepark",1494400,1195400,1887337
+"Totalt 01A - Barnehage",,,312788205,253671622,319867305
+"01B - Skole",20210," PPT grunnskole",41067000,38237700,39527619
+,20220," Vanlig grunnskoleundervisning",1947247693,1853519300,1844577185
+,20250," Syns-og audioped. tj. gr.skole",-636300,-688300,-817785
+,21310," PPT for voksne og ungdom",3145700,2898900,2247092
+,21320," Eksamensrettet voksenopplæring",7754600,7404800,8010559
+,21330," Særskilt voksenopplæring",21499600,20614600,18086533
+,21340," Voksenoppl. språklige minoriteter",3177001,2039800,-11004454
+,21350," Syns-og audioped. tj.voksne",3394300,3246400,3595614
+,21410," Spesialskoler",32093100,33301200,40275844
+,21510," SFO basistilbud",28372913,22316600,20631964
+,21520," SFO tilleggsytelser",14540700,13901200,12036246
+,22210," Skolelokaler og uteareal",229549251,326543439,303160781
+,22310," Skoleskyss",27164400,26736600,27984278
+,38310," Musikk og kulturskole",41599822,38781100,40959751
+"Totalt 01B - Skole",,,2399969781,2388853339,2349271225
+"02 - Barneverntjeneste",23190," Sommerleirene",6716000,6610000,5733702
+,24410," Barneverntjeneste",116286693,111547100,124616647
+,24420," Barnevernvakt",7960000,7618000,7624776
+,25110," Tiltak i familien",60393499,58450499,74179561
+,25210," Tiltak utenfor familien",187228600,182967600,181903934
+"Totalt 02 - Barneverntjeneste",,,378584792,367193199,394058622
+"03 - Tiltak for eldre og særlig omsorgstrengende",18050," Eldrerådet / Råd for funksjonshemmede",424000,410000,451949
+,23410," Åpne aktivitetstilbud",39415000,37007000,33310159
+,23420," Dagsenter",56288600,53719200,57561571
+,23430," Aktivitetssenter",82765500,78319500,74107642
+,23460," Miljøtiltak i bolig",21002300,20190300,19845672
+,23470," Andre velferdstiltak",75169900,68871500,47536591
+,25310," Sykehjem døgnopphold",1309660994,1250575500,1332917237
+,25320," Dagopphold",4579000,4394000,2768381
+,25330," Aldershjem døgnopphold",53241999,49895000,51967512
+,25340," Tiltak i avlastningsbolig",99373500,89343500,102725924
+,25350," Tiltak i barnebolig",,,7119281
+,25360," Boform heldøgns omsorg (institusjon KHL)",28505700,27360700,28668023
+,25410," Praktisk hjelp og bistand",872222776,812868878,737394504
+,25420," Personlig assistent",50483900,47847900,54195159
+,25440," Hjemmesykepleie",704476700,671727700,704158502
+,26110," Byggdrift sykehjem",220172308,132117316,165507680
+,26120," Byggdrift aldershjem",9279000,7653000,2593164
+,26130," Byggdrift avlastningsboliger",3206000,2476000,1293745
+,26160," Byggdrift boform heldøgns omsorg (inst KHL)",732000,720000,308245
+,26510," Byggdrift serviceboliger",2037000,775000,-5267825
+,26530," Byggdrift bofellesskap for utviklingshemmede",7397500,4954000,11425894
+,26540," Byggdrift bofellesskap for mennesker med psykiske",7325000,7277000,3142109
+"Totalt 03 - Tiltak for eldre og særlig omsorgstrengende",,,3647758677,3368502994,3433731121
+"04 - Sosialtjeneste",24210," Sosial rådgivning og veiledning",224145500,207164500,210325119
+,24230," Tolketjeneste",14889000,14236000,11585932
+,24310," Rusbehandling, råd og veiledning",60689500,60446700,43893009
+,24320," Lavtersketilbud for stoffmisbrukere",16884500,16138500,18863554
+,24330," Utekontakt",14282000,13745000,14442017
+,24340," Overnattingstilbud til bostedsløse",4694000,4500000,4479094
+,24350," Midl opph. m/tils-ikke ind.rettet",11972200,10916200,10333436
+,24360," Botreningstjeneste ikke individrettet",10528500,10050500,7330523
+,27510," Introduksjonsordningen flyttet fra 27360",88233800,85119800,83795248
+,27610," Kvalifiseringsordningen",52180500,48311900,14790834
+,28110," Økonomisk sosialhjelp - individrettet",253336996,272865996,273298072
+"Totalt 04 - Sosialtjeneste",,,751836496,743495096,693136838
+"05 - Helsetjeneste",23210," Helsestasjon",68239500,63715500,62960235
+,23220," Skolehelsetjeneste",25744200,24526200,24294947
+,23230," Helsestasjon for ungdom",3152900,3020900,3564838
+,23310," Smittevern",5564200,5236200,5917238
+,23330," Teknisk hygiene",5866500,5643500,11254989
+,23350," Forebyggende arbeid helse og sosial",7342400,7083400,4915719
+,24110," Legetjeneste",143239498,133806498,137785726
+,24130," Fengselshelsetjeneste",484600,473600,628660
+,24150," Fysioterapitjeneste",87495800,76805800,76769089
+,24160," Ergoterapitjeneste",22123000,21136000,21380154
+,24180," Formidling av tekniske hjelpemidler",8222000,7988000,7252651
+,24240," Støtte til krisetiltak",2461000,2207000,2672840
+"Totalt 05 - Helsetjeneste",,,379935598,351642598,359397087
+"06 - Overføringer til trossamfunn",39000," Kirkelig administrasjon",21458368,20728400,21334201
+,39010," Kirker og menigheter",65479739,58294100,64373756
+,39200," Overføring til andre trossamfunn",11751127,11641300,10441828
+,39300," Kirkegårder, gravlunder, krematorier",26251985,24828700,26488588
+"Totalt 06 – Overføringer til trossamfunn",,,124941219,115492500,122638373
+"07 - Brannvesen",28520," Ambulansetjeneste",100500,100500,100795
+,33810," Forebygging branner og ulykker",16879340,15594100,12498296
+,33820," Feiing og tilsyn",-1903000,-3349000,-2331636
+,33910," Beredskap mot branner og ulykker",158023285,144988968,152319980
+,33920," Alarmtjenester",5029704,4260100,4366149
+"Totalt 07 - Brannvesen",,,178129829,161594668,166953584
+"08 - Samferdsel",33040," Bybanen",-24000,-37000,-709263
+,33320," Tiltak fremkommelighet kjørende",119864607,118422500,126493951
+,33452," Veglys Fylkesveger",,,9844794
+,33453," Veglys Kommunale og private veger",33485497,33449900,28981348
+"Totalt 08 - Samferdsel",,,153326104,151835400,164610829
+"09 - Boligtiltak",26550," Kommunale utleieboliger",7193100,6907500,6749301
+,28310," Bostøtte",47169790,45390800,44441478
+,28320," Boligfinansiering",2696708,3251100,1791347
+,31520," Mottatte renter/avdrag på utlån",,0,-2260217
+"Totalt 09 - Boligtiltak",,,57059598,55549400,50721909
+"10 - Fysisk byplanlegging, byggesak, oppmåling mv.",30110," Offentlige planer",27773200,28299300,34793388
+,30120," Private planer",-571000,-942000,608560
+,30130," Grøntfaglig planlegging",19650800,20083300,15532710
+,30210," Bygge- og delesaksbeh. og seksjonering",347900,2714900,5120058
+,30220," Seksjonering",865600,736900,1953127
+,30310," Kart- og delingsforretninger",-641000,-1060000,1577192
+,30320," Oppmålingstjenester",15417700,14238100,14595315
+,32010," Kommunale skoger",1325900,1272500,1452115
+,32910," Landbruk",3513200,3327700,3441564
+,33510," Grønn prosjektering",8036400,7041400,5961341
+,33520," Parkdrift",31843800,30582400,37082803
+,36010," Fiske, fangst og viltstell",82700,84500,220014
+,36020," Klima og miljøtiltak",4280600,9151700,10738098
+,36500," Kulturminnevern - flyttet fra 30033",6352100,6098300,6358872
+,75010," Forsøksordning kulturminnevern",,,34958
+"Totalt 10 - Fysisk byplanlegging, byggesak, oppmåling mv.",,,118277900,121629000,139470115
+"11 - Arbeidsmarkedstiltak",27310," Sysselsettingstiltak / adm.",2902310,2570600,2221971
+,27320," Lærlinger - administrasjon",3561300,3419900,3800346
+,27330," Lærlinger",19925700,18675100,61532
+,27340," Tilskudd til lønn for yrkes- / utviklingshemmede",2748600,2615100,2258063
+"Totalt 11 - Arbeidsmarkedstiltak",,,29137910,27280700,8341912
+"12 - Kultur",23100," Barnas hus",3854900,3703600,4019944
+,23120," Ungdomshus og fritidsklubber.",24066013,23685100,25094678
+,23130," Tilskudd barn og ungdom",18065800,17757400,16046034
+,23150," Kunstskoler - andre uttrykk",,,22271
+,23170," Festivaler og mønstringer",129800,129800,281919
+,28540," Vitensenter",5281200,5398000,5398000
+,37010," Bergen offentlige bibliotek",51091600,45361600,50142523
+,37520," Edvard Grieg Museum",600000,600000,600000
+,37540," Bergen Kunstmuseum",158400,158400,128676
+,37560," Tilskudd muséer",18768550,18682250,13594000
+,37580," Kulturvern",5699100,5626800,2351346
+,37700," Kunstmuséer",46316500,46154300,16600250
+,37710," Scenekunst",10472700,10492700,11121121
+,37720," Musikk",22262600,24360600,25526438
+,37730," Visuell kunst",10365200,8351300,9418317
+,37740," Film",5120000,4900000,5551667
+,37750," Litteratur",1165000,520000,470000
+,37760," Tverrestetisk",7220000,6365000,5157230
+,37770," Ymse kunstformidling",8856600,9292200,16892699
+,37790," Kulturbasert næring",572100,405000,604732
+,38520," Byggdrift kulturhus",1671200,-313800,2694956
+,38530," Kulturdager og frivillige markeringer",848000,848000,1204822
+,38560," Flerkulturelt kulturtilbud / BIKS",1326000,1926000,850967
+,38570," Seniorkultur",1167000,1298400,560972
+,38580," Kulturtilbud utv. hemmede",4326187,4220800,3557505
+,38590," Øvrig kulturaktivitet",15731876,12284051,8177130
+,38610," Kommunale kulturbygg",14848045,4078824,25089539
+"Totalt 12 - Kultur",,,279984371,256286325,251157738
+"13 - Idrett",38010," Idrettsanlegg",57104521,62567400,65407426
+,38050," Tilskudd til idrettsorganisasjoner",5915000,8341600,9482765
+,38060," Tilskudd til fysisk akt. og idrett for barn og ung",15557500,15457500,12597215
+,38070," Nærmiljøaktivitet idrett",2808700,3808700,3707562
+,38080," Idrettsarrangement og konf.",91400,3591400,-18334
+,38090," Idrettsaktivitet og tilskudd for særskilte grupper",1093400,1093400,659325
+,38110," Kommunale idrettsbygg- og anlegg",99620636,25418921,63554728
+"Totalt 13 - Idrett",,,182191157,120278921,155390687
+"14 - Næring",27350," Vernede bedrifter",9742000,9440000,9076956
+,32021," Næringsvirksomhet kommunal utleie lokaler",-15204700,-12067400,-2943527
+,32022," Næringsvirksomh. komm. utleie festetomter og grunn",-9623937,-9640900,-8839314
+,32550," Andre næringsformål",18689513,20101800,22676576
+,32560," Veiledning for næringslivet, strategisk næringspla",-71000,-139000,564395
+,33010," Kollektivtrafikk",5500000,464000,-675964
+,33020," Havneformål",80200,80200,80200
+,33030," Ymse samferdselsformål",,,340000
+"Totalt 14 - Næring",,,9112076,8238700,20279322
+"15 - Bystyrets organer",10010," Bystyret",31203700,31401800,29809741
+,10020," Bydelsstyrene",0,5160300,4183190
+,10040," Ombud",2171900,2021700,2051468
+,11010," Revisjon",13566100,12995700,11026350
+,11020," Kontrollutvalg",3279600,3155800,2306027
+"Totalt 15 - Bystyrets organer",,,50221300,54735300,49376776
+"16 - Administrasjon og fellesfunksjoner",12000," Administrasjon",475356240,455062598,468326821
+,12110," Forvaltningsutgifter eiendomsforvaltningen",45617499,44743400,33311490
+,13000," Administrasjonslokaler",81013386,67121614,62102122
+"Totalt 16 - Administrasjon og fellesfunksjoner",,,601987125,566927612,563740433
+"17 - Sentrale forvaltningstjenester",10011," Regionrådet for Bergen og omland",427700,421000,423300
+,10030," Valget",13172300,1646200,13460673
+,18000," Tilfluktsrom",3312000,3047000,2625077
+,18020," Interne fellestjenester",22000000,21000000,798904
+,18040," Sivilforsvar / akutt beredskap",1609403,1296600,1855278
+,18060," Overformynderiet",4353500,4157600,5065024
+,24250," Bevillingsfunksjon/skjenkekontroll",325500,275500,-44105
+,28530," Div. tilskudd",814096,1409100,4179000
+,33500," Offentlige toaletter",688000,687000,578384
+"Totalt 17 - Sentrale forvaltningstjenester",,,46702499,33940000,28941534
+"18 - Vann og avløp",34010," Produksjon av vann",98306600,97276600,93244044
+,34510," Distribusjon av vann",-98952000,-95959000,-91875374
+,35010," Avløpsrensing",89274300,86413300,74192473
+,35310," Avløpsnett / innsamling av avløpsvann",-88037100,-85193100,-71920967
+,35410," Tømming av slamavskillere",0,0,-855741
+"Totalt 18 - Vann og avløp",,,591800,2537800,2784436
+"19 - Overføring til/fra bedrifter",26560," Overføring til Bergen Bolig og Byfornyelse (ekskl.",-41188924,-65708800,-35832881
+,32040," Overføring fra BIR (konk.uts.v.)",2003100,1973500,1805106
+,32050," Bydrift Bergen AS",2000000,4000000,5264889
+,33370," Overføring fra Bergen Parkeringsselskap",-50350000,-51850000,-41357100
+,35510," Renovasjon - transportdel",-171825200,-166277200,-156379808
+,35710," Renovasjon - behandlingsdel",171825200,166277200,157160713
+,35720," Etterdrift avfallsdeponier",27700,27700,27657
+"Totalt 19 - Overføring til/fra bedrifter",,,-87508124,-111557600,-69311423
+"20 - Interne tjenester / fordelte kostnader",19020," Entreprenørtjenester anlegg",,-198000,0
+,19031," Bil/mask.form. innenf. avg.omr",-329000,-463000,0
+,19040," Parkdrift",-156500,-197900,0
+,19050," Renholdstjenester",-1946400,-1992500,0
+,19060," Håndverkertjenester bygg",-1375600,-919100,0
+,19080," Driftstjeneste bygg",-2081300,-978500,0
+"Totalt 20 - Interne tjenester / fordelte kostnader",,,-5888800,-4749000,0
+"21 - Sentrale budsjettposter",17000," Premieavvik",-125976810,-161796280,-268848771
+,17100," Amortisering av tidligere års premieavvik",135263000,129993000,111759971
+,18080," Tilfeldige utgifter/inntekter - AFP m.m.",38934000,39075000,-5972265
+,18090," Reservert til tilleggsbevilgninger og nye bevilgni",39957784,216789100,310178
+,86011," Motpost avskrivninger",-566354199,-495531800,-496281686
+"Totalt 21 - Sentrale budsjettposter",,,-478176225,-271470980,-659032573
+"23 - ""Under streken""-sentrale budsjettposter",80010," Skatt på formue og inntekt",-6074496017,-6528246668,-6045170158
+,80020," Eiendomsskatt",-154434000,-149000000,-168891659
+,84010," Statlig rammetilskudd",-2702873373,-1890202395,-1968221882
+,84020," Øvrige generelle statstilskudd",-64059000,-89147000,-75717060
+,85010," Generelt statstilskudd vedrørende flyktninger",-161730000,-166351500,-169226972
+,85020," Tilskudd til enslige mindreårige flyktninger",-7029999,-7030000,-7255698
+,87010," Renter, utbytte m.v.",-259307100,-368769827,-433121513
+,87020," Avdrag, utlån m.v.",305466000,339138000,302304274
+,88010," Interne finansieringsposter",-12500000,97701800,19774817
+"Totalt 23 - ""Under streken""-sentrale budsjettposter",,,-9130963489,-8761907590,-8545525849
