@@ -21,17 +21,35 @@ $(function()
         {
             var self = this;
             $(".items").html("");
+            var total = 0;
             this.posts.each(function(model) {
-                var years = model.get('years');
+                var years = model.get('years'),
+                    percentage = model.get('percentage'),
+                    hBase = 200 * model.get('percentage'),
+                    wBase = 100 * model.get('percentage');
+
+                var height = Math.round(hBase + (80 * percentage)) + 20,
+                    width = Math.round(wBase + (30 * percentage)) + 20;
+
+                total += width;
+
+                //height : Math.round(300 * model.get('percentage')) + 50,
+
                 var html = $("#postBarTemplate").tmpl({
-                    height : Math.round(300 * model.get('percentage')) + 50,
+                    height : height,
+                    width : width,
                     percentage : Math.round(model.get('percentage') * 100 * 10) / 10,
                     id : model.cid,
                     name : model.get('name')
                 });
 
-                $(".items").append(html);
+                $(".items")
+                    .append(html);
             });
+            $(".items")
+                .css({
+                    width : total + "px"
+                });
             return this;
         },
 
