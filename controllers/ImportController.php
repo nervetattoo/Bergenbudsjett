@@ -42,9 +42,9 @@ class ImportController extends \lithium\action\Controller {
                 }
                 elseif ($group)
                 {
-                    $group->y2011 = (float) $y2011;
-                    $group->y2010 = (float) $y2010;
-                    $group->y2009 = (float) $y2009;
+                    $group->y2011 = (int) ($y2011 / 1000);
+                    $group->y2010 = (int) ($y2010 / 1000);
+                    $group->y2009 = (int) ($y2009 / 1000);
                     $group->save();
                     continue;
                 }
@@ -58,9 +58,9 @@ class ImportController extends \lithium\action\Controller {
                 $post->save(array(
                     'post' => (float) $postId,
                     'desc' => trim($desc),
-                    'y2011' => (float) $y2011,
-                    'y2010' => (float) $y2010,
-                    'y2009' => (float) $y2009,
+                    'y2011' => (int) ($y2011 / 1000),
+                    'y2010' => (int) ($y2010 / 1000),
+                    'y2009' => (int) ($y2009 / 1000),
                     'groupId' => $groupId
                 ));
                 $posts++;
@@ -109,9 +109,9 @@ class ImportController extends \lithium\action\Controller {
                     'name' => $currentName,
                     'group' => $grantGroup->_id,
                     'desc' => $desc,
-                    'y2011' => (float) $y2011,
-                    'y2010' => (float) $y2010,
-                    'change' => (float) $change
+                    'y2011' => (int) ($y2011 / 1000),
+                    'y2010' => (int) ($y2010 / 1000),
+                    'change' => (int) ($change / 1000)
                 ));
             }
         }
