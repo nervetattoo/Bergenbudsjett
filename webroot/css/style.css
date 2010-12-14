@@ -3,7 +3,7 @@
     * { margin: 0 auto; padding: 0; }
     
     html {
-        background: #edebe7 url(../gfx/bg-html.png) 0 50px no-repeat;
+        background: #edebe7;
         height: 100%;
     }
     
@@ -139,10 +139,12 @@
             
 .tmp {
     width: 800px;
+    margin-top: 100px;
     height: 200px;
 }
     .tmp .stripe {
-        background: #ccc;
+        background: #eee;
+        padding: 0 0 20px 0;
     }
     .tmp .stripe h1 {
         font: 30px;
@@ -153,10 +155,14 @@
         border-radius: 2000px;
         background: #222;
         border: 10px solid white;
-        color: #000;
+        color: #fff;
         z-index: 4;
+        font-size: 80px;
+        line-height: 180px;
         width: 200px;
         height: 200px;
         float: left;
-        margin: -50px 5px 0 5px;
+        margin: -50px 20px 0 5px;
+        text-align: center;
+        
     }
