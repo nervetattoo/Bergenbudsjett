@@ -20,10 +20,13 @@
 <body>
     <script type="text/html" id="postBarTemplate">
     {% raw %}
-    <div id="${id}" class="item" style="width:${width}px;">
+    <div id="${id}" class="item" 
+        style="width:${width}px; height:${height}px;">
+
         <span style="height: ${height}px;width:${width - 1}px;">
-            ${percentage}
+            ${millions} mill
         </span>
+        <p>${name}</p>
     </div>
     {% endraw %}
     </script>

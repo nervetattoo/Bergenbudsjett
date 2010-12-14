@@ -61,6 +61,10 @@
                     text-indent: -9999px;
                     opacity: 0.8;
                 }
+
+                .item p {
+                    display: none;
+                }
                 
                     .item span:hover {
                         background: #222;
@@ -70,7 +74,7 @@
                         width: 100px;
                         border: 0;
                         z-index: 3;
-                        font-size: 30px;
+                        font-size: 24px;
                         text-indent: 0;
                         padding: 35px 0 0 0;
                         opacity: 1;
