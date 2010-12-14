@@ -49,10 +49,14 @@
                     cursor: pointer;
                 }
                 
-                    .item span:hover {
+                    .item span:hover, .item.active span {
                         -webkit-transform: scale(2);
                         border-left: 1px solid #aaa;
                         z-index: 3;
+                    }
+                    
+                    .item.active span {
+                        background: blue;
                     }
                     
                     
