@@ -8,13 +8,14 @@ $(function()
         posts : null,
         initialize: function(options)
         {
-            _.bindAll(this, "render", "openPost");
+            _.bindAll(this, "render", "openPost", "showGrants");
 
             this.posts = options.posts;
         },
 
         events : {
-            "click .item" : "openPost"
+            "click .item" : "openPost",
+            "click .circle" : "showGrants"
         },
 
         render : function()
@@ -70,6 +71,7 @@ $(function()
             var model = this.posts.getByCid(node.attr("id"));
             var container = $(".circles").html("");
 
+            $(".circle").live("click", this.showGrants);
             $.ajax({
                 url : '/budget/postsAndGrants.json',
                 dataType : 'json',
@@ -104,5 +106,13 @@ $(function()
                 }
             });
         },
+
+        showGrants : function() {
+            $(".hor").animate({
+                opacity : 1,
+            }, 750, function() { 
+                $(this).css('display', 'block');
+            });
+        }
     });
 });

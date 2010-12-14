@@ -17,7 +17,7 @@
         position: fixed;
         height: 100%;
         width: 100%;
-        background: url(../gfx/Untitled-13.png) center center;
+        background: url(../gfx/Untitled-13.png) center center no-repeat;
         z-index: 1000;
         opacity: 0;
     }
