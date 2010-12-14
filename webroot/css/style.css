@@ -14,7 +14,7 @@
     }
     
     .top {
-        height: 122px;
+        height: 222px;
         width: 100%;
         background: url(../gfx/bg-top.png) top center repeat-x;
     }
@@ -115,9 +115,6 @@
                     
                     
         .circles {
-            position: absolute;
-            left: 0;
-            right: 0;
             top: 128px;
             z-index: 5;
             width: 960px;
