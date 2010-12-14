@@ -30,15 +30,24 @@ class ImportController extends \lithium\action\Controller {
                 if (strpos($tmp, "Totalt") === false)
                 {
                     $group = Group::create();
+                    list($number, $name) = explode(" - ", $tmp);
+                    $name = str_replace('"', "", trim($name));
+                    $number = trim($number);
                     $group->save(array(
-                        'name' => $tmp
+                        'name' => $name,
+                        'number' => $number
                     ));
                     $groupId = $group->_id;
                     $groups++;
-                    unset($group);
                 }
-                else
+                elseif ($group)
+                {
+                    $group->y2011 = (float) $y2011;
+                    $group->y2010 = (float) $y2010;
+                    $group->y2009 = (float) $y2009;
+                    $group->save();
                     continue;
+                }
             }
 
             /**
@@ -47,11 +56,11 @@ class ImportController extends \lithium\action\Controller {
             if (isset($groupId)) {
                 $post = Post::create();
                 $post->save(array(
-                    'post' => (int) $postId,
+                    'post' => (float) $postId,
                     'desc' => trim($desc),
-                    'y2011' => (int) $y2011,
-                    'y2010' => (int) $y2010,
-                    'y2009' => (int) $y2009,
+                    'y2011' => (float) $y2011,
+                    'y2010' => (float) $y2010,
+                    'y2009' => (float) $y2009,
                     'groupId' => $groupId
                 ));
                 $posts++;
@@ -59,9 +68,7 @@ class ImportController extends \lithium\action\Controller {
         }
 
         // Grants
-        $ret = compact('groups', 'posts') + $this->grants();
-
-        return $ret;
+        return compact('groups', 'posts') + $this->grants();
 	}
 
 	public function grants() {
@@ -78,7 +85,7 @@ class ImportController extends \lithium\action\Controller {
              */
             if (is_numeric($post))
             {
-                $currentPost = (int) $post;
+                $currentPost = (float) $post;
                 $currentName = $groupName;
                 // Store grant group
                 $grantGroup = GrantGroup::create();
@@ -102,9 +109,9 @@ class ImportController extends \lithium\action\Controller {
                     'name' => $currentName,
                     'group' => $grantGroup->_id,
                     'desc' => $desc,
-                    'y2011' => (int) $y2011,
-                    'y2010' => (int) $y2010,
-                    'change' => (int) $change
+                    'y2011' => (float) $y2011,
+                    'y2010' => (float) $y2010,
+                    'change' => (float) $change
                 ));
             }
         }
