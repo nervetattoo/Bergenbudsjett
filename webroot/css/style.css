@@ -62,7 +62,11 @@
                     opacity: 0.8;
                 }
                 
-                    .item span:hover, .item.active span {
+                    .item span:hover {
+                        background: #222;
+                    }
+                    
+                    .item.active span {
                         width: 100px;
                         border: 0;
                         z-index: 3;
