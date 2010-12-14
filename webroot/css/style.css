@@ -69,21 +69,27 @@
                     
         .circles {
             position: absolute;
+            left: 0;
+            right: 0;
             z-index: 5;
+            width: 960px;
         }    
         
             .circle {
                 border-radius: 2000px;
                 background: green;
+                color: #fff;
                 z-index: 4;
+                float: left;
+                margin: 0 5px 0 5px;
             }
             
                 .circle span {
-                    position: absolute;
+                    display: block;
                     margin-top: 40%;
                     padding: 0 20px;
                     text-align: center;
-                    font-size: 14px;
+                    font-size: 12px;
                 }
 
             
