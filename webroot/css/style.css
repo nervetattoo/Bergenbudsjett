@@ -77,7 +77,8 @@
         
             .circle {
                 border-radius: 2000px;
-                background: green;
+                background: #7EA268;
+                border: 10px solid #CECCC9;
                 color: #fff;
                 z-index: 4;
                 float: left;
