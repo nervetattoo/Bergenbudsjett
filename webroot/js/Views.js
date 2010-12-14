@@ -18,8 +18,10 @@ $(function()
             var self = this;
             this.el.html("");
             this.posts.each(function(model) {
+                var years = model.get('years');
                 var html = $("#postBarTemplate").tmpl({
-                    height : 100,
+                    height : Math.round(1000 * model.get('percentage')),
+                    percentage : Math.round(model.get('percentage') * 100),
                     name : model.get('name')
                 });
 

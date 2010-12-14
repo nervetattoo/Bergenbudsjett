@@ -15,10 +15,8 @@ $(function()
                 this.set({years : {2011:0,2010:0,2009:0}});
             if (!this.get("num"))
                 this.set({num : 0});
-        },
-
-        mediaId : function()
-        {
+            if (!this.get("percentage"))
+                this.set({percentage : 0});
         },
     });
 
@@ -40,6 +38,7 @@ $(function()
                     id : data._id,
                     name : data.name,
                     num : data.num,
+                    percentage : data.percentage,
                     years : {
                         2011 : data.y2011,
                         2010 : data.y2010,

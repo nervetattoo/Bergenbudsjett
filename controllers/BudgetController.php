@@ -11,10 +11,22 @@ class BudgetController extends \lithium\action\Controller {
 
 	public function groups() {
         $groups = Group::find('all', array(
+            'conditions' => array(
+                'y2011' => array('$gte' => 0)
+            ),
             'order' => array(
                 'name' => 'asc'
             )
-        ));
-        return compact('groups');
+        ))->to('array');
+
+        $total = 0;
+        foreach ($groups as $group) {
+            $total += $group['y2011'];
+        }
+        foreach ($groups as &$group) {
+            $group['percentage'] = round($group['y2011'] / $total, 4);
+        }
+
+        return compact('total', 'groups');
 	}
 }
