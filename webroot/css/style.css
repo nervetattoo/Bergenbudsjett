@@ -79,17 +79,16 @@
                 border-radius: 2000px;
                 background: #7EA268;
                 border: 10px solid #CECCC9;
-                color: #fff;
+                color: #000;
                 z-index: 4;
                 float: left;
                 margin: 0 5px 0 5px;
-                overflow: hidden;
             }
             
                 .circle span {
                     display: block;
-                    margin-top: 40%;
-                    padding: 0 20px;
+                    margin-top: 120%;
+                    padding: 0 10px;
                     text-align: center;
                     font-size: 12px;
                 }
