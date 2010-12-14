@@ -136,4 +136,26 @@
             
             
             
-    
+.tmp {
+    width: 800px;
+    height: 200px;
+}
+    .tmp .stripe {
+        background: #ccc;
+    }
+    .tmp .stripe h1 {
+        font: 30px;
+        padding: 30px 0;
+        margin-left: 150px;
+    }
+    .tmp .bullet {
+        border-radius: 2000px;
+        background: #222;
+        border: 10px solid white;
+        color: #000;
+        z-index: 4;
+        width: 200px;
+        height: 200px;
+        float: left;
+        margin: -50px 5px 0 5px;
+    }

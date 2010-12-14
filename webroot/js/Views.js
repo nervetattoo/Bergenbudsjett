@@ -66,44 +66,6 @@ $(function()
 
             this.$(".item.active").removeClass("active");
             node.addClass('active');
-            /*
-            var toRemove = 0;
-            this.$(".item.active").each(function() {
-                var n = $(this);
-                toRemove = 100 - n.data('width');
-                n.find('span')
-                        .css('width', (n.data('width') - 1) + 'px')
-                        .end()
-                    .css('width', n.data('width') + 'px')
-                    .removeClass("active");
-            });
-
-            var items = $(".items"),
-                nodeWidth = 100 - node.width();
-
-            items.css({
-                width : items.width() + nodeWidth - toRemove
-            });
-            */
-
-            /**
-             * Set width and cache current width for resetting
-            node
-                .data('width', node.width())
-                .css('width', '100px')
-                .addClass("active")
-                .find('span')
-                    .css('width', '99px');
-             */
-
-            /**
-             * Move node to the middle of .items
-            var items = $(".item");
-            var insertAt = Math.round(items.length / 2);
-            items.slice(insertAt, insertAt + 1).before(
-                node.detach()
-            );
-             */
 
             var model = this.posts.getByCid(node.attr("id"));
             var container = $(".circles").html("");

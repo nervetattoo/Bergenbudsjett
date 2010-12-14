@@ -37,7 +37,8 @@ class BudgetController extends \lithium\action\Controller {
         $posts = Post::find('all', array(
             'conditions' => array(
                 'groupId' => new \MongoId($id)
-            )
+            ),
+            'limit' => 10
         ))->to('array');
 
         $ids = array();
