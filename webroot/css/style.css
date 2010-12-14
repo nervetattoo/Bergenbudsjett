@@ -82,6 +82,7 @@
                 z-index: 4;
                 float: left;
                 margin: 0 5px 0 5px;
+                overflow: hidden;
             }
             
                 .circle span {
