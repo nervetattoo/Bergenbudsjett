@@ -11,7 +11,7 @@
         bottom: 0;
         width: 100%;
         height: 440px;
-        background: url(gfx/bottom.png) bottom center no-repeat;
+        background: url(../gfx/bottom.png) bottom center no-repeat;
     }
     
         .items {
@@ -50,5 +50,8 @@
                 }
 
             .item.left  { -webkit-transform:rotate(-25deg) scale(1); }
-            .item.right { -webkit-transform:rotate(25deg) scale(1); }
+            .item.right { -webkit-transform:rotate(25deg) scale(1);  }
+            
+            
+            
     
