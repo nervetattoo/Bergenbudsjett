@@ -16,47 +16,43 @@
     
         .items {
             width: 690px;
-            height: 240px;
+            height: 260px;
             padding: 0 65px 0 65px;
             overflow-y: hidden;
-            bottom: 0;
+            bottom: 100px;
             left: 0;
             right: 0;
             position: absolute;
         }
         
             .item {
-                width: 18px;
+                width: 25px;
                 height: 260px;
                 bottom: 20px;
                 left: 0;
                 right: 0;
                 float: left;
-                margin: 0 10px 0 0;
+                margin: 0 5px 0 0;
                 z-index: 1;
-                background: rgba(255,255,255,0.2);
-                border: 1px solid rgba(0,0,0,0.5);
-                -webkit-box-shadow: 4px 4px 4px rgba(0,0,0,0.5);
-                border-radius: 20px;
             }
             
             .item.left, .item.right {
-            }
+            }   
             
                 .item span {
                     position: absolute;
-                    background: rgba(0,0,0,0.7);
+                    background: #E0DFDC;
+                    -webkit-box-shadow: 2px 2px 2px rgba(0,0,0,0.5);
                     display: block;
-                    width: 16px;
-                    margin-left: 1px;
+                    width: 25px;
                     z-index: 2;
                     bottom: 0;
-                    border-radius: 20px;
+                    border-top-left-radius: 20px;
+                    border-top-right-radius: 20px;
+                    
                     cursor: pointer;
                 }
 
-            .item.left  { -webkit-transform:rotate(-25deg) scale(1); }
-            .item.right { -webkit-transform:rotate(25deg) scale(1);  }
             
             
             
