@@ -112,6 +112,7 @@
             position: absolute;
             left: 0;
             right: 0;
+            top: 200px;
             z-index: 5;
             width: 960px;
         }    
@@ -138,7 +139,7 @@
             
             
 .tmp {
-    width: 800px;
+    width: 910px;
     position: absolute;
     left: 0;
     right: 0;
