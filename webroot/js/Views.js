@@ -20,7 +20,7 @@ $(function()
         render : function()
         {
             var self = this;
-            this.el.html("");
+            $(".items").html("");
             this.posts.each(function(model) {
                 var years = model.get('years');
                 var html = $("#postBarTemplate").tmpl({
@@ -30,7 +30,7 @@ $(function()
                     name : model.get('name')
                 });
 
-                self.el.append(html);
+                $(".items").append(html);
             });
             return this;
         },
