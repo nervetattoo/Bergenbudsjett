@@ -3,7 +3,7 @@
     * { margin: 0 auto; padding: 0; }
     
     html {
-        background: #edebe7 url(../gfx/bg-html.png) center center no-repeat;
+        background: #edebe7 url(../gfx/bg-html.png) 0 50px no-repeat;
         height: 100%;
     }
     
