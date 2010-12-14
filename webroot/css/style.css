@@ -8,9 +8,15 @@
     }
     
     body {
-        background: url(../gfx/bg-top.png) top center repeat-x;
+        
         font-family: Helvetica, Arial, sans-serif;
         height: 100%;
+    }
+    
+    .top {
+        height: 122px;
+        width: 100%;
+        background: url(../gfx/bg-top.png) top center repeat-x;
     }
     
     .green {
@@ -124,6 +130,7 @@
                 color: #000;
                 z-index: 4;
                 float: left;
+                cursor: pointer;
                 margin: 0 5px 0 5px;
             }
             
