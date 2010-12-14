@@ -78,6 +78,7 @@ $(function()
                 },
                 success : function(resp)
                 {
+                    var width = 0;
                     _(resp.posts).each(function(node) {
                         var size = Math.round(
                             376 * (node.y2011 / resp.total)
@@ -91,6 +92,7 @@ $(function()
                         if (size % 2 != 0)
                             size++;
                         $(".tmp").hide();
+                        width += size + 14;
                         container.append(
                             $("#circleTemplate").tmpl({
                                 size : size,
@@ -98,6 +100,7 @@ $(function()
                             })
                         );
                     });
+                    container.css('width', width + 'px');
                 }
             });
         },
