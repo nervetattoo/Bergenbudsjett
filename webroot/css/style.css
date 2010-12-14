@@ -3,7 +3,7 @@
     * { margin: 0 auto; padding: 0; }
     
     html {
-        background: #edebe7;
+        background: #f6f3ef;
         height: 100%;
     }
     
@@ -139,8 +139,12 @@
             
 .tmp {
     width: 800px;
-    margin-top: 100px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 200px;
     height: 200px;
+    overflow:show;
 }
     .tmp .stripe {
         background: #F6F3EF;
@@ -149,21 +153,26 @@
     .tmp .stripe h1 {
         font: 30px;
         color: #363636;
-        padding: 30px 0;
-        margin-left: 150px;
+        background: #e6e4e0;
+        padding: 28px 0;
+        padding-left: 250px;
+    }
+
+    .tmp .stripe p {
+        margin-top: 10px;
+        font: 14px;
     }
     .tmp .bullet {
         border-radius: 2000px;
         background: #222;
-        border: 10px solid white;
+        border: 10px solid #f6f3ef;
         color: #fff;
         z-index: 4;
-        font-size: 80px;
+        font-size: 60px;
         line-height: 180px;
-        width: 200px;
-        height: 200px;
+        width: 180px;
+        height: 180px;
         float: left;
-        margin: -50px 20px 0 5px;
+        margin: -50px 20px 0 35px;
         text-align: center;
-        
     }

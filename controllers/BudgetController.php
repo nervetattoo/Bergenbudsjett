@@ -17,7 +17,7 @@ class BudgetController extends \lithium\action\Controller {
             'order' => array(
                 'name' => 'asc'
             ),
-            'limit' => 8
+            'limit' => 9
         ))->to('array');
 
         $total = 0;

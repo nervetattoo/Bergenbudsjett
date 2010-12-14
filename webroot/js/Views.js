@@ -90,6 +90,7 @@ $(function()
                             size = 2;
                         if (size % 2 != 0)
                             size++;
+                        $(".tmp").hide();
                         container.append(
                             $("#circleTemplate").tmpl({
                                 size : size,
