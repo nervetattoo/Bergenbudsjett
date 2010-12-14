@@ -1,0 +1,45 @@
+
+
+    * { margin: 0 auto; padding: 0; }
+    
+    body {
+        background: #F6F3EF;
+    }
+    
+    .bottom {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        height: 440px;
+        background: url(gfx/bottom.png) bottom center no-repeat;
+    }
+    
+        .items {
+            position: absolute;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            height: 400px;
+            width: 690px;
+        }
+        
+            .item {
+                width: 20px;
+                background: red;
+                height: 100%;
+                margin-right: 10px;
+                float: left;
+                bottom: 0;
+                position: relative;
+                
+            }
+            
+            .item.left, .item.right {
+                background: blue;
+                margin-top: 40px;
+            }
+            
+            .item.left  { -webkit-transform:rotate(-25deg) scale(1); }
+            .item.right { -webkit-transform:rotate(25deg) scale(1); }
+    
+    
