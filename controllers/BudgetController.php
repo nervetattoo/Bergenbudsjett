@@ -29,4 +29,36 @@ class BudgetController extends \lithium\action\Controller {
 
         return compact('total', 'groups');
 	}
+
+    public function postsAndGrants() {
+        $id = $this->request->query['id'];
+        // First find all posts for group
+        $posts = Post::find('all', array(
+            'conditions' => array(
+                'groupId' => new \MongoId($id)
+            )
+        ))->to('array');
+
+        $ids = array();
+        $total = 0;
+        foreach ($posts as &$p) {
+            $total += $p['y2011'];
+            /*
+            $post = $p['post'];
+            $ids[] = $post;
+             */
+        }
+
+        /*
+        $grants = Grant::find('all', array(
+            'conditions' => array(
+                'post' => array(
+                    '$in' => $ids
+                )
+            ),
+            'limit' => 100
+        ))->to('array');
+         */
+        return compact('total', 'posts');
+    }
 }

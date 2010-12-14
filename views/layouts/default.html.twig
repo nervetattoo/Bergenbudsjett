@@ -21,7 +21,7 @@
 <body>
     <script type="text/html" id="postBarTemplate">
     {% raw %}
-    <div class="item">
+    <div id="${id}" class="item">
         <span style="height: ${height}px;">
             ${percentage}
         </span>
@@ -29,13 +29,19 @@
     {% endraw %}
     </script>
 
+    <script type="text/html" id="circleTemplate">
+    {% raw %}
+    <div id="${id}" class="circle" style="width:${size}px;height:${size}px;">
+        <span>${post}</span>
+    </div>
+    {% endraw %}
+    </script>
+
     {{this.content}}
 
+    <div class="circles"></div>
     <div class="bottom">
         <div class="items">
-            <div class="item left"><span style="height:200px"></span></div>
-            <div class="item"></div>
-            <div class="item right"><span style="height:96px"></span></div>
         </div>
     </div>
     
